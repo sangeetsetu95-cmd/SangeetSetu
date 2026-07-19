@@ -1,0 +1,25 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <!-- Circle Background -->
+    <path
+        android:fillColor="#0B1F3A"
+        android:pathData="M50,50m-45,0a45,45 0,1 1,90 0a45,45 0,1 1,-90 0" />
+    <!-- Golden Ring -->
+    <path
+        android:strokeColor="#D4AF37"
+        android:strokeWidth="2"
+        android:pathData="M50,50m-40,0a40,40 0,1 1,80 0a40,40 0,1 1,-80 0" />
+    <!-- Musical Note Symbol -->
+    <path
+        android:fillColor="#D4AF37"
+        android:pathData="M45,30 L45,65 C45,70 40,70 35,70 C30,70 25,65 25,60 C25,55 30,50 35,50 C38,50 40,51 42,53 L42,35 L65,25 L65,60 C65,65 60,65 55,65 C50,65 45,60 45,55 C45,50 50,45 55,45 C58,45 60,46 62,48 L62,30 Z" />
+    <!-- Setu (Bridge) Arc at Bottom -->
+    <path
+        android:strokeColor="#D4AF37"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M20,80 Q50,60 80,80" />
+</vector>

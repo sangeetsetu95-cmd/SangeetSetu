@@ -1,0 +1,177 @@
+package com.sangeetsetu.app.model
+
+object DemoData {
+    val artists = listOf(
+        // Category: श्रीमद्भागवत कथा व्यास (पुरुष)
+        User(
+            uid = "v1", 
+            name = "Pandit Pradeep Mishra Ji", 
+            category = "श्रीमद्भागवत कथा व्यास (पुरुष)", 
+            state = "Madhya Pradesh", 
+            district = "Sehore", 
+            city = "Sehore", 
+            experience = "15", 
+            rating = 4.9, 
+            reviewsCount = 12500, 
+            photoUrl = "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=400",
+            isVerified = true,
+            userType = "Artist"
+        ),
+        User(
+            uid = "v2", 
+            name = "Aniruddhacharya Ji Maharaj", 
+            category = "श्रीमद्भागवत कथा व्यास (पुरुष)", 
+            state = "Uttar Pradesh", 
+            district = "Mathura", 
+            city = "Vrindavan", 
+            experience = "12", 
+            rating = 4.8, 
+            reviewsCount = 8500, 
+            photoUrl = "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=400",
+            isVerified = true,
+            userType = "Artist"
+        ),
+        User(
+            uid = "v3", 
+            name = "Devkinandan Thakur Ji", 
+            category = "श्रीमद्भागवत कथा व्यास (पुरुष)", 
+            state = "Uttar Pradesh", 
+            district = "Mathura", 
+            city = "Vrindavan", 
+            experience = "20", 
+            rating = 4.9, 
+            reviewsCount = 15000, 
+            photoUrl = "https://images.unsplash.com/photo-1552374196-c4e7ffc6e126?q=80&w=400",
+            isVerified = true,
+            userType = "Artist"
+        ),
+        User(
+            uid = "v4", 
+            name = "Pandit Dhirendra Krishna Shastri", 
+            category = "श्रीमद्भागवत कथा व्यास (पुरुष)", 
+            state = "Madhya Pradesh", 
+            district = "Chhatarpur", 
+            city = "Bageshwar Dham", 
+            experience = "8", 
+            rating = 4.7, 
+            reviewsCount = 25000, 
+            photoUrl = "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=400",
+            isVerified = true,
+            userType = "Artist"
+        ),
+        User(
+            uid = "v5", 
+            name = "Acharya Prashant", 
+            category = "श्रीमद्भागवत कथा व्यास (पुरुष)", 
+            state = "Uttar Pradesh", 
+            district = "Greater Noida", 
+            city = "Noida", 
+            experience = "10", 
+            rating = 4.6, 
+            reviewsCount = 4200, 
+            photoUrl = "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=400",
+            isVerified = true,
+            userType = "Artist"
+        ),
+        User(
+            uid = "v6", 
+            name = "Swami Ramdev", 
+            category = "श्रीमद्भागवत कथा व्यास (पुरुष)", 
+            state = "Uttarakhand", 
+            district = "Haridwar", 
+            city = "Haridwar", 
+            experience = "30", 
+            rating = 5.0, 
+            reviewsCount = 50000, 
+            photoUrl = "https://images.unsplash.com/photo-1542178243-bc20204b7694?q=80&w=400",
+            isVerified = true,
+            userType = "Artist"
+        ),
+        User(
+            uid = "v7", 
+            name = "Sri Sri Ravi Shankar", 
+            category = "श्रीमद्भागवत कथा व्यास (पुरुष)", 
+            state = "Karnataka", 
+            district = "Bangalore", 
+            city = "Bangalore", 
+            experience = "35", 
+            rating = 4.9, 
+            reviewsCount = 35000, 
+            photoUrl = "https://images.unsplash.com/photo-1533108344127-a586d2b02479?q=80&w=400",
+            isVerified = true,
+            userType = "Artist"
+        ),
+        User(
+            uid = "v8", 
+            name = "Sadhguru Jaggi Vasudev", 
+            category = "श्रीमद्भागवत कथा व्यास (पुरुष)", 
+            state = "Tamil Nadu", 
+            district = "Coimbatore", 
+            city = "Coimbatore", 
+            experience = "40", 
+            rating = 4.8, 
+            reviewsCount = 28000, 
+            photoUrl = "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=400",
+            isVerified = true,
+            userType = "Artist"
+        ),
+        User(
+            uid = "v9", 
+            name = "Morari Bapu", 
+            category = "श्रीमद्भागवत कथा व्यास (पुरुष)", 
+            state = "Gujarat", 
+            district = "Bhavnagar", 
+            city = "Talgajarda", 
+            experience = "50", 
+            rating = 5.0, 
+            reviewsCount = 100000, 
+            photoUrl = "https://images.unsplash.com/photo-1552374196-c4e7ffc6e126?q=80&w=400",
+            isVerified = true,
+            userType = "Artist"
+        ),
+        User(
+            uid = "v10", 
+            name = "Ramesh Bhai Oza", 
+            category = "श्रीमद्भागवत कथा व्यास (पुरुष)", 
+            state = "Gujarat", 
+            district = "Porbandar", 
+            city = "Sandipani", 
+            experience = "45", 
+            rating = 4.9, 
+            reviewsCount = 22000, 
+            photoUrl = "https://images.unsplash.com/photo-1463453091185-61582044d556?q=80&w=400",
+            isVerified = true,
+            userType = "Artist"
+        ),
+
+        // Category: भजन गायिका
+        User(
+            uid = "f1", 
+            name = "Jaya Kishori Ji", 
+            category = "भजन गायिका", 
+            state = "Rajasthan", 
+            district = "Nagaur", 
+            city = "Nagaur", 
+            experience = "10", 
+            rating = 4.9, 
+            reviewsCount = 45000, 
+            photoUrl = "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=400",
+            isVerified = true,
+            userType = "Artist"
+        ),
+        User(
+            uid = "f2", 
+            name = "Maithili Thakur", 
+            category = "भजन गायिका", 
+            state = "Bihar", 
+            district = "Madhubani", 
+            city = "Madhubani", 
+            experience = "5", 
+            rating = 4.8, 
+            reviewsCount = 15000, 
+            photoUrl = "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=400",
+            isVerified = true,
+            userType = "Artist"
+        )
+    )
+}
